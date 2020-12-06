@@ -52,6 +52,14 @@ module.exports = {
           notEmpty: true,
         },
       },
+      usu_id: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        references: { model: 'users', key: 'usu_id' },
+        validate: {
+          notEmpty: true,
+        },
+      },
       createdAt: {
         type: Sequelize.DATE,
         allowNull: false,
