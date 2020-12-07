@@ -15,7 +15,7 @@ Estes documento README tem como objetivo fornecer as informações necessárias 
 - Documentação Postgresql
   - https://www.postgresql.org/download/
 
-# 🏗 Projeto 1: system_api ?
+# 🏗 Projeto 1: system_api 
 
 - O backend foi desenvolvido utilizando o **Node.JS**, para a instalação é bem simples:
 
@@ -49,12 +49,12 @@ Para armazenar os dados, escolhi o **postgresql**
   - DB_POOL_MIN=**0** --> valor padrão
   - DB_POOL_ACQUIRE=**30000** --> valor padrão
   - DB_POOL_IDLE=**10000** --> valor padrão
-# 🏗 Projeto 2: system_mobile ?
+# 🏗 Projeto 2: system_mobile 
 
 - O aplicativo que consumirá a API acima, foi desenvolvido utilizando o framework **FLUTTER**, o qual permite desenvolver aplicações tanto para ANDROID como IOS ( sendo multiplataforma ).
 
 **Configuração**
-- 1. Acima encontra-se o site oficial para baixar o SDK do flutter e alguns passos detalhados da configuração
+- 1. Na seção **links** acima, encontra-se o site oficial para baixar o SDK do flutter e alguns passos detalhados da configuração
 - 2. Para certificar da flutter, rode o comando **flutter --version**, caso apareça as informações, está instalado corretamente
 - 3. Para certificar que todos os requisitos do flutter estão configurados, rode o comando **flutter doctor -v**, 
 a interface é interativa e caso esteja algo fora do normal, será mostrada a solução.
