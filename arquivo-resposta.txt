@@ -1,0 +1,35 @@
+Respostas:
+
+1. Dependendo das especificações do projeto, dos requisitos, assim decidimos qual o melhor ambiente para este projeto. 
+Partindo do princípio de que ambientes on-premise são mais caros para se manter internamente para a empresa, o que requer 
+equipe dedicada para manter a disponibilidade, manuntenabilidade e segurança. Também imaginando-se a quantidade de 
+acesso simultâneos ao mesmo tempo e ao ponto de precisar escalonar, com isso o custo seria muito elevado. Enquanto ambientes 
+Clouds ( nuvem ) são mais robusto, escalonável ( uns dos pontos mais relevantes para este tipo de ambiente - escalonar conforme a 
+necessidade tanto aumentando ou diminuindo ) e mais baratos. Podendo investir intermamente ou utilizando serviços prontos como: 
+AWS, AZURE, DigitalOcean, GoogleCloud entre outros. Portanto, visando: qualidade, disponibilidade, segurança, confiabilidade e 
+custo. Este projeto deve ser disponilizado em ambiente Cloud.
+
+
+2. Dentre as metodologias ágeis existentes: uma delas que visa um time ( equipe ) de no máximo 7 desenvolvedores, 1 Product Owner
+1 Scrum Master, é o SCRUM - podemos também utilizar com SCRUM o KANBAN ( para o desenvolvimento das SPRINTS ). 
+Com SCRUM, conseguimos determinar a produtividade e a velocidade do projeto, após elaborar o Product Backlog ( lista geral de 
+tudo que precisa ser feito para atingir o objetivo final ) e também estimar  o respectivo esforço de cada SPRINTS. Agora precisamos 
+desenvolver as SPRINTS definidas e com isso podemos  utilizar o KANBAN, metodologia que visa organizar as tarefas em basicamente 
+3 etapas ( FAZER/do, FAZENDO/doing, FINALIZADO/done ) e para que tudo funcione perfeitamente, é preciso que a equipe tenha engajamento.
+
+
+3. Sim. Por que um lider precisa ser flexível, entender as situações, implementar mudanças se necessário, ter responsabilidade,
+capacitar, promover e também manter que todos os liderados estejam alinhado para um bem maior, por exemplo,
+finalizar o projeto com afinco e acredito que tenho esses requisitos, lembrando que: caso fosse dada a oportunidade!
+
+
+4. Partindo do princípio que estamos utilizando ambiente Cloud, e dada a sugestão para o problema, com certeza sugeria 
+arquitetura Serverless, onde podemos utilizar microsserviços que é capaz de propagar dados de formas assincrona. Com isso 
+garantimos a escabilidade, a disponibilidade ( caso algum microsserviço venha falhar, outro possa assumir ) e também a 
+interação de qualquer canal, pois os microsserviços podem trocar informações entre si, e caso queiramos centralizar, podemos
+ter um microsserviço que seja responsável por fornecer todo o histórico de interação do usuário. Portanto, temos inúmeras 
+possibilidades utilizando uma arquitetura serverless.
+
+5. Sim, é válido! Porque é uma oportunidade de mostrar que temos capacidade técnica para a vaga almejada e tornar o processo
+mais meritocrático.
+
